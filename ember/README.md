@@ -131,10 +131,12 @@ var data = {
 And, in `app/templates/index.hbs`:
 
 ```
-{{#each this}}
+{{each this}}
   <li>{{noteBody}}</li>
 {{/each}}
+
 ```
+
 
 Now, let's add images to your data. Add a picture attribute, something like this:
 
